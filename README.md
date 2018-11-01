@@ -4,6 +4,7 @@ tcpreplay的一个用户界面 使用pyqt实现
   跨平台需求 c++版qt不太熟 java的GUI太丑
 ## 用到的一些东西：
 - 自定义checkboxlist
+- 根据配置文件自动生成tab
 - json的读取保存与使用
 - 选择文件
 - QScrollArea() QTabWidget() QSlider 多线程QThread
@@ -17,6 +18,7 @@ tcpreplay的一个用户界面 使用pyqt实现
 - anaconda自带的spyder没有代码缩进 pycharm可以代码缩进但调试界面不如spyder
 - pyqt也是可以用qtcreator画界面的 很多教程完全没有提到
 - qt组件的一些方法的命名很反直觉 用的时候得确认一下
+- json文件的中文编码问题
 
 ## 存在的一些问题：
 - 使用了全局变量 应该避免
