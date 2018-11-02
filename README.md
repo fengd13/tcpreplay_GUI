@@ -4,7 +4,7 @@ tcpreplay的一个用户界面 使用pyqt实现
   跨平台需求 c++版qt不太熟 java的GUI太丑
 ## 用到的一些东西：
 - 自定义checkboxlist
-- 根据配置文件自动生成tab
+- 根据配置文件自动生成tab 动态更新界面
 - json的读取保存与使用
 - 选择文件
 - QScrollArea() QTabWidget() QSlider 多线程QThread
